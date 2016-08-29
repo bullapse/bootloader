@@ -20,7 +20,7 @@ func Run(fp string) {
 	}
 }
 
-func RunWithLog(fp string, l log.Logger) {
+func RunWithLog(fp string, l *log.Logger) {
 	f, e := os.Open(fp)
 	if e != nil {
 		l.Println("File at " + string(fp) + "cannot be found.")
