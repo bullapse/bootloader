@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func run(fp string) {
+func Run(fp string) {
 	f, e := os.Open(fp)
 	if e != nil {
 		fmt.Println("File at " + string(fp) + "cannot be found.")
