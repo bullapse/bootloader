@@ -9,6 +9,7 @@
 - `bootloader.Run("/path/to/{bootloader.txt}")`
 - File in the same directory Example
     - `bootloader.Run("./{bootloader.txt})`
+    
 ## Usage with log and lumberjack
 - `RunWithLog` takes in a txt file path that you want to run as a bootloader and a logger
 
