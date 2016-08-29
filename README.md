@@ -1,4 +1,5 @@
 # bootloader #
+- Golang package that runs a bootloader from a text file using a log or output to the console
 
 ## Get and Import
 - `go get github.com/bullapse/bootloader`
